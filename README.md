@@ -31,7 +31,7 @@ HeatWise será deployado no Microsoft Azure para proporcionar escalabilidade e d
 
 ### Exemplo de integração com GitHub Actions:
 
-yml
+```yml
 on:
   push:
     branches:
@@ -75,4 +75,4 @@ jobs:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
-          name: .net-app
+          name: .net-app```
